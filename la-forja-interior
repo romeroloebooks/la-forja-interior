@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Forja Interior</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .ebook {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      background: white;
+    }
+    .ebook h3 {
+      margin-top: 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #006400;
+    }
+    .button {
+      background: #222;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .pack {
+      background: #eee;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: 3rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Forja Interior</h1>
+    <p><em>"El conocimiento que cambia tu vida cabe en un ebook"</em></p>
+  </header>
+  <div class="container">
+
+    <div class="ebook">
+      <h3>1. Hábitos Atómicos en 21 Días</h3>
+      <p>Transforma tu vida diaria con hábitos pequeños pero poderosos. Ideal para quien quiere resultados rápidos y sostenibles.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>2. Finanzas Personales Sin Complicaciones</h3>
+      <p>Domina tus ingresos y aprende a ahorrar e invertir sin fórmulas complicadas.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>3. Inteligencia Artificial Para Emprendedores</h3>
+      <p>Descubre cómo usar IA para automatizar tareas y generar ingresos desde casa.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>4. Cuerpo de Acero: Entrenamiento en Casa</h3>
+      <p>Rutinas simples y efectivas para ganar músculo y energía sin gimnasio.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>5. Minimalismo Mental</h3>
+      <p>Aprende a simplificar tu entorno, tus decisiones y tu mente para vivir más libre.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>6. Vive de tus Habilidades Digitales</h3>
+      <p>Guía para empezar como freelance en diseño, redacción o marketing sin experiencia previa.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>7. Guía de Supervivencia Urbana</h3>
+      <p>Prepárate para emergencias reales sin paranoia: seguridad, comida y mentalidad resiliente.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="ebook">
+      <h3>8. Marketing Que No Vende, Conquista</h3>
+      <p>Estrategias de persuasión natural para vender sin parecer vendedor.</p>
+      <p class="price">Precio: 1,50€</p>
+      <button class="button">Comprar con PayPal</button>
+    </div>
+
+    <div class="pack">
+      <h2>🔥 Pack Mente Invencible</h2>
+      <p>Los 8 ebooks por solo <strong>9,99€</strong>. Ahorra más de 2€ y consigue todo el conocimiento de golpe.</p>
+      <button class="button">Comprar Todo con PayPal</button>
+    </div>
+
+    <p style="text-align: center; margin-top: 3rem; font-size: 0.9rem; color: #666">Tras el pago, el ebook será enviado a tu correo electrónico automáticamente.</p>
+
+  </div>
+</body>
+</html>
+
